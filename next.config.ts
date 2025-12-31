@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "standalone",
+  // You can also add other production optimizations here
+  reactStrictMode: true,
 };
 
 export default nextConfig;
