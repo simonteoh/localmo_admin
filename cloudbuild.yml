@@ -13,7 +13,7 @@ steps:
     args:
       - 'run'
       - 'deploy'
-      - 'localmo_admin' # Replace with your Cloud Run service name
+      - 'localmo-admin' # Replace with your Cloud Run service name
       - '--image'
       - 'gcr.io/$PROJECT_ID/my-nextjs-app'
       - '--region'
